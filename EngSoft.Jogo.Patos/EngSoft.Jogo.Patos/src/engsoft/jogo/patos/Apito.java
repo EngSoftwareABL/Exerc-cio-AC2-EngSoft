@@ -2,13 +2,12 @@ package engsoft.jogo.patos;
 
 /**
  * Classe de Apito que pode efetuar um grasno
- * Implementa��o da Interface
- * 
+ * Implementação da Interface
  */
-public class Apito implements Padrao_Grasnar{
+public class Apito implements Padrao_Grasnar { // Implementação da interface Padrao_Grasnar para o comportamento de grasno
 
-	public String grasnar()
-	{		
-		return "Queeeeee";
-	}
+    @Override
+    public String grasnar() { // Polimorfismo: o método grasnar tem um comportamento específico para a classe Apito
+        return "Queeeeee"; 
+    }
 }
