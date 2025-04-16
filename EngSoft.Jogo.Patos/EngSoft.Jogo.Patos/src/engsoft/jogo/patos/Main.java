@@ -17,6 +17,9 @@ public class Main {
 		pt.setComportamento(new Voar_Raso());
 		
 		System.out.println(pt.comportamento_pato());
+
+		pt.setAcao(new Acao_Dancar());
+		System.out.println(pt.acao_pato()); //Ativ2 : Execução da ação dançar
 		
 		
 	}

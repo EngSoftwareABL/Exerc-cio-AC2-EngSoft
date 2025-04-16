@@ -5,6 +5,7 @@ public class Pato_Ruivo extends Pato implements Padrao_Grasnar { // Herança: Pa
     public Pato_Ruivo() {
         setComportamento(new Voaveis_Asa()); // Composição: comportamento de voo atribuído através de setComportamento, que pode ser alterado dinamicamente.
         setAcao(new Acao_Pular()); //Ativ2: Alterações para o Pato Pular
+        
     }
 
     public String mostrar() { // Polimorfismo: cada tipo de pato pode ter um comportamento de mostrar diferente
